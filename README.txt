@@ -10,4 +10,5 @@
 10)Bring back filefrom statging area to working copy - git reset HEAD index.html
 11)Getting older versions : 
 a) See the log - git log
-b) Bad version
+b) Removing wrong commit : git checkout commit-version --README.txt
+	eg: git checkout 73edfg --README.txt
