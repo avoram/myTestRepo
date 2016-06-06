@@ -1,4 +1,5 @@
 1) Add files to git - git add . 
 2) check the status - git status
 3) commit - git commit -m "Commit Message"
-4)working copy > staging area > repository
+4) Flow : working copy > staging area > repository
+5) Show the changes - git diff
