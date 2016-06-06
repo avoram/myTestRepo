@@ -7,3 +7,7 @@
 7) Rename files - git mv index.html home.html
 8) Moving to another folder - git mv index.html view/home.html
 9) Undo Changes : git checkout -- README.txt
+10)Bring back filefrom statging area to working copy - git reset HEAD index.html
+11)Getting older versions : 
+a) See the log - git log
+b) 
