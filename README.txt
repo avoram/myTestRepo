@@ -17,7 +17,12 @@
 				  b) Commit the changes - git commit -m 'changes commited'
 	
 	Direct changes : Add+commit --> git commit -am 'Skipping stagging step and directly commit working copy > repository'	
-13)	
-	
+
+13)Adding files to Github : 
+
+	a)set the nick name and connection to gihub project : git remote add myTestRepo https://github.com/avoram/myTestRepo.git
+	b)git remote -> myTestRepo
+	c)Pushing changes -> git push -u myTestRepo
+	d)This will add the files to Github
 
 	
