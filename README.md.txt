@@ -5,3 +5,4 @@
 5) Show the changes - git diff
 6) Remove/delete file :- git rm index.html
 7) Rename files - git mv index.html home.html
+8) Moving to another folder - 
