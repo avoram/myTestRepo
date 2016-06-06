@@ -9,6 +9,15 @@
 9) Undo Changes : git checkout -- README.txt
 10)Bring back filefrom statging area to working copy - git reset HEAD index.html
 11)Getting older versions : 
-a) See the log - git log
-b) Removing wrong commit : git checkout commit-version --README.txt
+	a) See the log - git log
+	b) Removing wrong commit : git checkout commit-version --README.txt
 	eg: git checkout 73edfg --README.txt
+12) Directly pushing from working copy to repository without staging:
+	Normal flow : a) Add file to statging area(git add .) 
+				  b) Commit the changes - git commit -m 'changes commited'
+	
+	Direct changes : Add+commit --> git commit -am 'Skipping stagging step and directly commit working copy > repository'	
+13)	
+	
+
+	
