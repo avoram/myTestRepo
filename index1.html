@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Highchart</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+</head>
+
+<body>
+	<div id="container" style="width:100%; height:400px;"></div>
+	<div> Mayank Vora</div>
+</body>
+
+<script>
+
+$(function () {
+    $('#container').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+        title: {
+            text: 'Browser market shares January, 2015 to May, 2015'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    }
+                }
+            }
+        },
+        series: [{
+            name: 'Brands',
+            colorByPoint: true,
+            data: [{
+                name: 'Brokerage Account 3',
+                y: 1999990
+            }, {
+                name: 'Account 3',
+                y: 1949990,
+                sliced: true,
+                selected: true
+            }, {
+                name: 'Brokerage Account 1',
+                y: 1349990
+            }, {
+                name: 'Brokerage Account 4',
+                y: 155990
+            }, {
+                name: 'Brokerage Account 2',
+                y: 74560
+            }, {
+                name: 'Account 4',
+                y: 55006
+            }, {
+                name: 'Account 13',
+                y: 37340
+            }, {
+                name: 'Joint Account 1',
+                y: 28308
+            }, {
+                name: 'Joint Account 2',
+                y: 10000
+            }
+			]
+        }]
+    });
+});
+
+</script>
+
+</html>
