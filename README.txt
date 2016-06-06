@@ -10,4 +10,4 @@
 10)Bring back filefrom statging area to working copy - git reset HEAD index.html
 11)Getting older versions : 
 a) See the log - git log
-b) 
+b) Bad version
