@@ -26,5 +26,6 @@
 	d)This will add the files to Github.
 	
 14)git ignore : add .gitignore file and mention all the extension and file which need not be watched by git.
+15)Using Github desktop : Make a clone of the project and sync the changes.
 
 	
