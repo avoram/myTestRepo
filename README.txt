@@ -27,6 +27,6 @@
 	
 14)git ignore : add .gitignore file and mention all the extension and file which need not be watched by git.
 15)Using Github desktop : Make a clone of the project and sync the changes.
-16)Create a branch and modify the files and then make the pull request to merge in master branch.
+16)Create a branch and modify the files and then make the pull request to merge in master branch
 
 	
