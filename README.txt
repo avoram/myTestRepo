@@ -7,7 +7,7 @@
 7) Rename files - git mv index.html home.html
 8) Moving to another folder - git mv index.html view/home.html
 9) Undo Changes : git checkout -- README.txt
-10)Bring back filefrom statging area to working copy - git reset HEAD index.html
+10)Bring back file from staging area to working copy - git reset HEAD index.html
 11)Getting older versions : 
 	a) See the log - git log
 	b) Removing wrong commit : git checkout commit-version --README.txt
@@ -23,6 +23,8 @@
 	a)set the nick name and connection to gihub project : git remote add myTestRepo https://github.com/avoram/myTestRepo.git
 	b)git remote -> myTestRepo
 	c)Pushing changes -> git push -u myTestRepo
-	d)This will add the files to Github
+	d)This will add the files to Github.
+	
+14)git ignore : add .gitignore file and mention all the extension and file which need not be watched by git.
 
 	
